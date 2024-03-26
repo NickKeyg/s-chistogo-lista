@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  display: flex;
+  box-sizing: border-box;
+  width: 360px;
+}
+
+.content-section_theme_dark {
+  background-color: black;
+  color: white;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: black;
+}
+
+#header {
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 24px 20px;
+}
+
+.header__menu-list {
+  list-style-type: none;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.header__logo-image {
+  width: 78px;
+}
+
+.header__menu-item_active {
+  text-decoration: underline;
+  padding-top: 12px;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: white;
+}
+/* секция 2 "Заголовок" */
+
+#cover {
+  height: 225px;
+}
+
+.cover__title {
+  font-family: "EB Garamond";
+  font-size: 72px;
+  font-weight: 400;
+  width: 340px;
+  margin-left: 20px;
+  background-image: url(/images/cover.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.accent-span {
+  display: block;
+  height: 70px;
+}
+
+.text-left {
+  text-transform: uppercase;
+}
+
+.text-center {
+  margin-left: 46px;
+}
+
+.text-right {
+  text-align: right;
+  margin-right: 24px;
+}
+/*Секция 3 "intro"*/
+
+#intro {
+  height: 526px;
+  flex-direction: column;
+}
+
+.intro__heading {
+  margin-top: 35px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.intro__main-text2 {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+/* Секция 4 "reasons"*/
+
+#reasons {
+  height: 1368px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond";
+  font-size: 28px;
+  font-weight: 500;
+  margin: 40px 20px 0 20px;
+  line-height: 115%;
+}
+
+.accent-span-reasons {
+  display: block;
+}
+
+.text-right-reasons {
+  text-align: right;
+}
+
+.content-section__introduction {
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 32px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.content-section__list {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-top: 32px;
+  margin-left: 10%;
+  margin-right: 20px;
+}
+
+.content-section__list-item {
+  margin-bottom: 16px;
+}
+
+.content-section__list-accent {
+  font-family: "Inter";
+  font-weight: 700;
+}
+/*Секция 5 "how_to"*/
+
+#how_to {
+  height: 1849px;
+  display: inline-block;
+}
+
+.content-section__subtitle_black {
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+  margin: 40px 20px 32px 20px;
+}
+
+.accent-span-how_to {
+  display: block;
+}
+
+.text-right-how_to {
+  text-align: right;
+}
+
+.content-section__introduction_black {
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.cards-list {
+  margin-top: 32px;
+  margin-left: 20px;
+  height: 495px;
+  width: 319px;
+  background-color: #343434;
+  border-radius: 30px;
+  list-style-type: none;
+}
+
+.card__author-photo {
+  height: 100px;
+  width: 100px;
+  padding: 20px 136px 8px 20px;
+}
+
+.card__author-name {
+  font-family: "Inter";
+  font-weight: 700;
+  padding: 0 136px 8px 20px;
+}
+
+.card__title {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  padding: 0 71px 8px 20px;
+  font-weight: 500;
+}
+
+.card__text {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 21.6px;
+  padding: 0 20px 20px 20px;
+}
+
+.card_text-only {
+  height: 368px;
+  width: 319px;
+  background-color: #fee42a;
+  border-radius: 30px;
+  margin: 32px 0 0 0;
+  color: black;
+}
+
+.card__title-yellow {
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+  padding: 20px 20px 8px 20px;
+}
+
+.card-Bunin {
+  width: 319px;
+  height: 559px;
+  margin: 32px 0 60px 0;
+  background-color: #343434;
+  border-radius: 30px;
+}
+
+.card__author-photo-Bunin {
+  height: 100px;
+  width: 100px;
+  padding: 20px 199px 8px 20px;
+}
+
+.card__author-name-Bunin {
+  display: flex;
+  padding: 0 207px 8px 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card__title-Bunin {
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 22px;
+  padding: 0 66px 8px 20px;
+}
+
+.card__text-Bunin {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 21.6px;
+  padding: 0 20px 20px 20px;
+}
+
+.line {
+  background-color: #fee42a;
+  height: 1px;
+  width: 360px;
+}
+/*Секция 6 "футер"*/
+
+.footer {
+  height: 62px;
+  background-color: black;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.footer__copy {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 20px 155px 20px 20px;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 6px;
+}
