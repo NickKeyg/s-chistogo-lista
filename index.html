@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С чистого листа</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./fonts//fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="content-section content-section_theme_dark" id="header">
+    <header class="content-section content-section_theme_dark header">
       <img
-        src="/images/logo.svg"
-        alt="Логотип сайта верстака"
+        src="./images/logo.svg"
+        alt="Логотип сайта верстка"
         class="header__logo-image"
       />
       <nav class="header__menu">
@@ -29,18 +29,21 @@
       </nav>
     </header>
     <main class="main">
-      <section class="content-section content-section_theme_dark" id="cover">
+      <section class="content-section content-section_theme_dark cover">
         <h1 class="cover__title">
           <span class="accent-span text-left">с </span>
           <span class="accent-span text-center">чистого </span>
           <span class="accent-span text-right">листа</span>
         </h1>
       </section>
-      <section class="content-section content-section_theme_dark" id="intro">
-        <h2 class="intro__heading">
-          8 способов борьбы со страхом чистого листа
+      <section class="content-section content-section_theme_dark intro">
+        <div class="intro__heading">
+          <h2 class="cover__title-intro">
+            8 способов борьбы со страхом чистого листа
+          </h2>
           <time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
-        </h2>
+        </div>
+
         <div class="intro__main-text">
           <p>
             Начинать что-то новое — тяжело и страшно. Даже если это просто
@@ -58,17 +61,14 @@
           </p>
         </div>
       </section>
-      <section
-        class="content-section content-section_theme_bright"
-        id="reasons"
-      >
+      <section class="content-section content-section_theme_bright reasons">
         <div>
-          <h3 class="content-section__subtitle">
+          <h2 class="content-section__subtitle">
             <span class="accent-span-reasons text-right-reasons"
               >Почему чистый лист
             </span>
             <span class="accent-span-reasons">— такой cтрашный?</span>
-          </h3>
+          </h2>
           <p class="content-section__introduction">
             Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего
             объёма работы, которую предстоит сделать. Усилия, той точки, которую
@@ -119,13 +119,13 @@
           </ul>
         </div>
       </section>
-      <section class="content-section content-section_theme_dark" id="how_to">
-        <h4 class="content-section__subtitle_black">
+      <section class="content-section content-section_theme_dark how_to">
+        <h2 class="content-section__subtitle_black">
           <span class="accent-span-how_to text-right-how_to"
             >Как всё-таки начать</span
           >
           <span class="accent-span-how_to">что-то делать</span>
-        </h4>
+        </h2>
         <p class="content-section__introduction_black">
           Чаще всего страх чистого листа появляется не из-за чего-то одного, а
           из-за совокупности нескольких факторов. Вот что может помочь:
@@ -133,12 +133,12 @@
         <ul class="cards-list">
           <li class="card">
             <img
-              src="/images/polyarinov.png"
+              src="./images/polyarinov.png"
               alt="фото автора"
               class="card__author-photo"
             />
-            <span class="card__author-name">Алексей Поляринов</span>
-            <h5 class="card__title">Начать любыми словами</h5>
+            <p class="card__author-name">Алексей Поляринов</p>
+            <h3 class="card__title">Начать любыми словами</h3>
             <p class="card__text">
               Любыми — без шуток. Если не верите нам, посмотрите, например, чем
               открывается эссе Алексея Поляринова «Чарли Кауфман: расширение
@@ -161,15 +161,15 @@
               — пока неважно.
             </p>
           </li>
-          <li class="card-Bunin">
+          <li class="card">
             <img
-              src="/images/bunin.png"
+              src="./images/bunin.png"
               alt="фото автора"
-              class="card__author-photo-Bunin"
+              class="card__author-photo"
             />
-            <span class="card__author-name-Bunin">Иван Бунин</span>
-            <h5 class="card__title-Bunin">Сделать из задачи рутину</h5>
-            <p class="card__text-Bunin">
+            <span class="card__author-name">Иван Бунин</span>
+            <h5 class="card__title">Сделать из задачи рутину</h5>
+            <p class="card__text">
               «Писать стихи нужно каждый день, подобно тому как скрипач или
               пианист непременно должен каждый день без пропусков по нескольку
               часов играть на своём инструменте. В противном случае ваш талант
@@ -183,8 +183,9 @@
         </ul>
       </section>
     </main>
-    <div class="line"></div>
+
     <footer class="footer content-section content-section_theme_dark">
+      <div class="line"></div>
       <p class="footer__copy">© VЁRSTKA</p>
       <nav>
         <a href="#0" class="footer__links">ВК</a>
